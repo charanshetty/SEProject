@@ -1,0 +1,37 @@
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/text_routeno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                        Trip Plan               "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:hint="            Enter Route Number         " >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+    
+    
+    <Button
+        android:id="@+id/button_search_trip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Trip" />  
+   
+
+</LinearLayout>

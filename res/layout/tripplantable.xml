@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:orientation="vertical">
+
+<TableLayout
+ 
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+  android:shrinkColumns="*"  
+  android:stretchColumns="*"
+  android:background="#ffffff">
+
+
+ <!-- Row 1 with 3 column -->
+  <TableRow
+   android:id="@+id/tableRow1"
+   android:layout_height="wrap_content"
+   android:layout_width="fill_parent"
+   android:gravity="center_horizontal">
+
+
+     <TextView
+         android:id="@+id/TextView04" android:text="R_No"
+         android:layout_weight="1"
+         android:background="#dcdcdc"
+         android:textColor="#000000"
+         android:padding="20dip"
+         android:gravity="center"/>
+
+      <TextView
+         android:id="@+id/TextView04"
+         android:text="Dep.Tim_ori"
+         android:layout_weight="1"
+         android:background="#d3d3d3"
+         android:textColor="#000000"
+         android:padding="20dip"
+         android:gravity="center"/>
+
+       <TextView
+         android:id="@+id/TextView04"
+         android:text="Arr.Tim_Des"
+         android:layout_weight="1"
+         android:background="#cac9c9"
+         android:textColor="#000000"
+         android:padding="20dip"
+         android:gravity="center"/>
+
+  </TableRow>
+         
+  <!-- Row 2 with 3 columns -->
+
+
+ <TableRow
+      android:id="@+id/tableRow2"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent">
+
+     <TextView
+         android:id="@+id/TextView04"
+         android:text="Run1"
+         android:layout_weight="1"
+         android:background="#b0b0b0"
+         android:textColor="#000000"
+         android:padding="20dip"
+         android:gravity="center"/>
+
+       <EditText
+    android:id="@+id/text_dep_bus1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Dep.Time_B1"
+    android:inputType="text"
+     />
+
+        <EditText
+    android:id="@+id/text_arr_bus1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Arr.Time_B1"
+    android:inputType="text"
+     />
+  </TableRow>
+                         
+ <!-- Row 3 with 3 columns -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+
+
+     <TextView
+         android:id="@+id/TextView04" android:text="Run2"
+         android:layout_weight="1"
+         android:background="#cac9c9"
+         android:textColor="#000000"
+         android:padding="20dip"
+         android:gravity="center"/>
+
+       <EditText
+    android:id="@+id/text_dep_bus2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Dep.Time_B2"
+    android:inputType="text"
+     />
+
+        <EditText
+    android:id="@+id/text_arr_bus2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Arr.Time_B2"
+    android:inputType="text"
+     />
+  </TableRow>
+ 
+    
+        <Button
+        android:id="@+id/button_trip_show_realtime_bus_information"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         
+        android:text="VIEW REAL TIME INFORMATION" />             
+                           
+      </TableLayout>
+      
+
+      
+</LinearLayout>
