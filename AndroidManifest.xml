@@ -74,7 +74,7 @@
      <uses-library android:name="com.google.android.maps" />
         <meta-data
     android:name="com.google.android.maps.v2.API_KEY"
-    android:value="AIzaSyAykbi75aDDfX2Ag8mqTsVJFJEl2oRkqW4"/>
+    android:value="get from acct"/>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
